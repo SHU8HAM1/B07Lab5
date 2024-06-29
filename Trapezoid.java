@@ -29,6 +29,7 @@ public class Trapezoid {
 		if(B.distance(C) == A.distance(D) && !isParallel(A,D,C,B) && isParallel(A,B,C,D)) {
 			return true;
 		}
+		
 		return false;
 	}
 	
